@@ -21,7 +21,6 @@ Listarei abaixo os endpoints.
 ```java
 //uploads // POST GET
 //uploads/{nomeArquivo} // GET
-//uploads/{nomeArquivo} // 
 //uploads/{nomeArquivo}  DELETE 
 ```
 
