@@ -9,12 +9,13 @@ Este projeto é para apresentar como armazenar arquivo utilizando Minio com Spri
 - Spring Boot
 - Maven
 - Minio
+- Docker
 
 ## Como executar o projeto
 
 ### Pré-requisitos
 Java 17
-Docker
+
 ### Enpoint
 Listarei abaixo os endpoints.
 
