@@ -21,7 +21,8 @@ Listarei abaixo os endpoints.
 ```java
 //uploads // POST GET
 //uploads/{nomeArquivo} // GET
-//uploads/{nomeArquivo} // DELETE 
+//uploads/{nomeArquivo} // 
+//uploads/{nomeArquivo}  DELETE 
 ```
 
 ### Docker Minio
@@ -29,7 +30,7 @@ Listarei abaixo os endpoints.
 -  Link para acessar minio: http://localhost:9001/login
 -  Usuario: minio   Password: minio#123
 
-    
+```   
     version: '2'
     services:
       minio:
@@ -52,7 +53,7 @@ Listarei abaixo os endpoints.
     networks:
       minionetwork:
         driver: bridge
-    
+```    
 
 ### Clonar projeto
 ```bash
